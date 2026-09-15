@@ -1,0 +1,45 @@
+# ================================================================
+# requirements.txt — Diplomado ML en Seguros
+# Facultad de Ciencias, UNAM
+# Módulo 1: Introducción a Python
+#
+# Instalación:
+#   conda activate diplomado
+#   pip install -r requirements.txt
+# ================================================================
+
+# ── Módulo 1: Python básico ──────────────────────────────────────
+numpy>=1.23
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.13
+openpyxl>=3.1          # Leer y escribir archivos Excel
+python-dateutil>=2.9   # Manejo avanzado de fechas
+pyarrow>=15.0          # Soporte para archivos .parquet (T7)
+
+# ── Módulo 2: Análisis de datos ──────────────────────────────────
+scikit-learn>=1.3      # Imputation, preprocessing, ML
+fancyimpute>=0.7       # Imputación avanzada (KNN, MICE)
+missingno>=0.5         # Visualización de datos faltantes
+
+# ── Módulo 3: Machine Learning ───────────────────────────────────
+xgboost>=2.0
+lightgbm>=4.0
+imbalanced-learn>=0.12 # Clases desbalanceadas (fraude)
+shap>=0.35             # Explicabilidad de modelos
+
+# ── Módulo 4: Pricing y reservas ─────────────────────────────────
+statsmodels>=0.14      # GLM: Poisson, Gamma, Tweedie
+scipy>=1.8            # Distribuciones estadísticas
+chainladder>=0.8       # Métodos de reservas IBNR
+
+# ── Módulo 5: Dashboards ─────────────────────────────────────────
+streamlit>=1.35        # Dashboards interactivos
+plotly>=5.20           # Gráficas interactivas
+dash>=2.17             # Alternativa a Streamlit
+
+# ── Utilidades generales ─────────────────────────────────────────
+jupyter>=1.0
+ipykernel>=6.29
+ipywidgets>=8.1        # Widgets interactivos en Jupyter
+rich>=13.0             # Tablas y texto enriquecido en terminal

@@ -1,0 +1,51 @@
+name: GLMvsML
+# ================================================================
+# environment.yml — Modelos_estadisticosvsMLvsDeep-Learning
+#
+# Crear el ambiente:
+#   conda env create -f environment.yml
+#   conda activate GLMvsML
+#
+# Actualizar si se añaden dependencias:
+#   conda env update -f environment.yml --prune
+#
+# Exportar el ambiente exacto (con versiones fijas):
+#   conda env export > environment_exact.yml
+# ================================================================
+
+channels:
+  - conda-forge      # Repositorio con versiones más recientes
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+
+  # ── Instalados con conda (resuelven dependencias automáticamente) ──
+  - numpy>=1.26
+  - pandas>=2.2
+  - matplotlib>=3.8
+  - seaborn>=0.13
+  - scipy>=1.12
+  - scikit-learn>=1.4
+  - statsmodels>=0.14
+  - xgboost>=2.0
+  - openpyxl>=3.1
+  - pyarrow>=15.0
+  - jupyter>=1.0
+  - ipykernel>=6.29
+  - ipywidgets>=8.1
+  - python-dateutil>=2.9
+
+  # ── Instalados con pip (no disponibles o desactualizados en conda) ──
+  - pip:
+    - fancyimpute>=0.7
+    - missingno>=0.5
+    - chainladder>=0.8
+    - shap>=0.45
+    - streamlit>=1.35
+    - plotly>=5.20
+    - dash>=2.17
+    - lightgbm>=4.0
+    - imbalanced-learn>=0.12
+    - rich>=13.0
