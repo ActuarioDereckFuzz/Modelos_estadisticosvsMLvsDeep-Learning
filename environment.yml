@@ -39,6 +39,8 @@ dependencies:
 
   # ── Instalados con pip (no disponibles o desactualizados en conda) ──
   - pip:
+    - tensorflow
+    - keras_tuner
     - fancyimpute>=0.7
     - missingno>=0.5
     - chainladder>=0.8
