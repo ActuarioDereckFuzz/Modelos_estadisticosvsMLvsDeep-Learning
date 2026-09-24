@@ -41,6 +41,7 @@ dependencies:
   - pip:
     - tensorflow
     - keras_tuner
+    - tensorboard
     - fancyimpute>=0.7
     - missingno>=0.5
     - chainladder>=0.8
