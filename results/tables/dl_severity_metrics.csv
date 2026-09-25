@@ -1,2 +1,2 @@
-model,strategy,test_mae,test_rmse,test_deviance,oracle_mae,oracle_rmse,oracle_corr,n_params,architecture,train_time_seconds,tuning_time_seconds,best_epoch
-MLP Gamma,Bayesian HPO,5820.470703125,8962.86204289679,0.3224306106567383,1159.052490234375,1643.3485631478186,0.9502881848494085,257,16,7.712414899997384,315.6601238000003,37
+modelo,MAE_test,RMSE_test,Gamma_deviance_test,Oracle_MAE,Oracle_RMSE,Oracle_correlation,metodo_seleccion,n_params,architecture,train_time_seconds,tuning_time_seconds,best_epoch
+MLP Gamma,5820.470703125,8962.86204289679,0.3224306106567383,1159.052490234375,1643.3485631478186,0.9502881848494085,Bayesian HPO,257,16,7.712414899997384,315.6601238000003,37

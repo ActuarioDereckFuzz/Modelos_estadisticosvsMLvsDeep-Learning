@@ -1,2 +1,2 @@
-model,strategy,test_mae,test_rmse,test_deviance,oracle_mae,oracle_rmse,oracle_corr,n_params,architecture,train_time_seconds,tuning_time_seconds,final_epochs
-MLP Poisson,Bayesian HPO,0.2705587148666382,0.3920800764831666,0.5920963287353516,0.02939780429005623,0.04649892837641279,0.8379589228849434,529,16 -> 8 -> 8 -> 8,12.26759839999977,337.1613890000008,34
+modelo,MAE_test,RMSE_test,Poisson_deviance_test,Oracle_MAE,Oracle_RMSE,Oracle_correlation,metodo_seleccion,n_params,architecture,train_time_seconds,tuning_time_seconds,final_epochs
+MLP Poisson,0.2705587148666382,0.3920800764831666,0.5920963287353516,0.02939780429005623,0.04649892837641279,0.8379589228849434,Bayesian HPO,529,16 -> 8 -> 8 -> 8,12.26759839999977,337.1613890000008,34
