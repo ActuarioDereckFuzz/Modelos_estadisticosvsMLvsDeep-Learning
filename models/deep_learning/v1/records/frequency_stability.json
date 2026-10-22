@@ -1,0 +1,28 @@
+{
+  "signature": "e76aab29cf803716d474c9eef95677d98480726c78f699a25362b0a41b2073b1",
+  "value": {
+    "runs": [
+      {
+        "seed": 42,
+        "best_epoch": 51,
+        "best_val_loss": 0.4273594617843628,
+        "epochs_run": 53,
+        "time_seconds": 18.366111000003002
+      },
+      {
+        "seed": 123,
+        "best_epoch": 21,
+        "best_val_loss": 0.4308660924434662,
+        "epochs_run": 36,
+        "time_seconds": 13.07048930000019
+      },
+      {
+        "seed": 2026,
+        "best_epoch": 34,
+        "best_val_loss": 0.4292590022087097,
+        "epochs_run": 48,
+        "time_seconds": 15.356035199998587
+      }
+    ]
+  }
+}

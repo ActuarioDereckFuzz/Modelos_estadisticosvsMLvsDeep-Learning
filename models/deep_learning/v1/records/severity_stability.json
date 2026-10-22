@@ -1,0 +1,31 @@
+{
+  "signature": "e76aab29cf803716d474c9eef95677d98480726c78f699a25362b0a41b2073b1",
+  "value": {
+    "runs": [
+      {
+        "seed": 42,
+        "best_epoch": 37,
+        "best_val_loss": 0.3147349953651428,
+        "val_gamma_deviance": 0.31423431634902954,
+        "epochs_run": 57,
+        "time_seconds": 6.500383300000976
+      },
+      {
+        "seed": 123,
+        "best_epoch": 25,
+        "best_val_loss": 0.304491251707077,
+        "val_gamma_deviance": 0.3040364384651184,
+        "epochs_run": 45,
+        "time_seconds": 5.2138555999990785
+      },
+      {
+        "seed": 2026,
+        "best_epoch": 60,
+        "best_val_loss": 0.3177506923675537,
+        "val_gamma_deviance": 0.3172152042388916,
+        "epochs_run": 80,
+        "time_seconds": 8.284546300001239
+      }
+    ]
+  }
+}

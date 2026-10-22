@@ -1,0 +1,14 @@
+{
+  "signature": "e76aab29cf803716d474c9eef95677d98480726c78f699a25362b0a41b2073b1",
+  "value": {
+    "hp": {
+      "n_layers": 1,
+      "first_units": 32,
+      "reduction": 1.0,
+      "dropout": 0.2,
+      "l2": 3.0354743289178576e-05,
+      "learning_rate": 0.001514922084236242
+    },
+    "seconds": 0.00036360000012791716
+  }
+}
